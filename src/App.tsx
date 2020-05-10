@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import CardGrid from "./components/CardGrid";
-
-import { SelectionType, CardDataType } from "./types/types";
 
 function App(): JSX.Element {
   return (

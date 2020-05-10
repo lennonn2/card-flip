@@ -1,8 +1,8 @@
-import React, { SetStateAction, Dispatch, useState } from "react";
+import React from "react";
 import classnames from "classnames";
 import logo from "../../logo.svg";
 import "./Card.css";
-import { CardDataType, SelectionType } from "../../types/types";
+import { CardDataType } from "../../types/types";
 
 export type CardPropTypes = {
   data: CardDataType;
